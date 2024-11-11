@@ -12,4 +12,17 @@ Un UAL est la portion d'un processeur qui fait les opérations demandées au pro
   - SLT : Opération "Set less then", cette opération compare deux valeurs et retourne 0 ou 1 si la valeur est inférieure à la valeur demandée
 
 ## Schéma de L'UAL
-![plot](./Image/Schéma_UAL.png)
+<p align="center">
+    <img src="Image/Schéma_UAL.png">
+</p>
+
+| Entrée  | Sortie |
+| ------------- | ------------- |
+| SrcA : entrée A sur N bit (32 bit dans le cas actuelle)  | Cout : Sortie de la résultante de l'addition si elle dépasse le nombre de bit |
+| SrcB : entrée B sur N bit (32 bit dans le cas actuelle)  | Result : Sortie du résultat sur N bit (32 bit dans le cas actuelle)   |
+| UALCrontrol : Signal de control, qui dicte l'opération demandé  | Zero : Signal qui prend la valeur 1 si le Result prend la valeur 0 |
+
+## Architecture de L'UAL
+<p align="center">
+    <img src="Image/Architecture_UAL.png">
+</p>
