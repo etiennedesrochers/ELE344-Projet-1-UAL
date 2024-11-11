@@ -40,13 +40,16 @@ Avoir la valeur inverse d'une valeur nous permet de faire une soustraction par c
 Les valeurs choisit par le signale de control sont ensuite envoyé dans 3 opération 
 ##### AND
 Opération qui compare deux valeur et qui retourne sur Result le résult d'une opération ET
+
 Exemple : "10011" et "00011" retournera : "00011" 
 #### OR 
 Opération qui compare deux valeur et qui retourne sur Result le résult d'une opération OU
+
 Exemple : "10000" et "00011" retournera : "10011" 
 #### ADD
 Opération qui fait la somme de deux valeurs
 Si le valeur obtenue ne peut pas être à afficher sur le nombre de bit utilisé par le procésseur alors la valeur de la retenue sera mise sur la sortie Cout.
+
 Fait aussi les soustractions
 #### SLT
 Opération qui reguarde si SrcA est supérieure à SrcB, qui retourne sur Result 1 si SrcA est inférieure
