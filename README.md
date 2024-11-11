@@ -10,3 +10,4 @@ L'UAL de ce projet contient les fonctionnalités suivantes:
   - ADD : Opération "Addition", cette opération additionne deux valeurs binaires et retourne la valeur de la somme
   - SUB : Opération "Soustraction", cette opération soustrait deux valeurs binaires et retourne la valeur de la différence
   - SLT : Opération "Set less then", cette opération compare deux valeurs et retourne 0 ou 1 si la valeur est inférieure à la valeur demandée
+
